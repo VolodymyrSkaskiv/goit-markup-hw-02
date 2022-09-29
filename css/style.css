@@ -28,11 +28,9 @@
 }
 
 body {
-  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
-  font-weight: 400;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--text-color);
 }
@@ -49,12 +47,10 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  /* Використовується тільки один раз */
   color: var(--black);
 }
 
 .nav-item {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -72,6 +68,7 @@ body {
 }
 
 .contact {
+  font-weight: 500;
   color: var(--text-color);
 }
 
@@ -96,7 +93,6 @@ body {
 }
 
 .hero-title {
-  font-family: inherit;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -111,9 +107,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
+
   letter-spacing: 0.06em;
 
   color: var(--white);
@@ -129,7 +123,6 @@ body {
 /*==========SECTION  Наші особливості ===========*/
 
 .title-after {
-  font-family: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -161,8 +154,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
 
-  /* letter-spacing: 0.03em; */
-
   color: var(--title-color);
 }
 
@@ -190,7 +181,6 @@ body {
 }
 
 .address-map {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -200,7 +190,6 @@ body {
 }
 
 .email-tel {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -233,7 +222,6 @@ body {
 }
 
 .gal-item-title {
-  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -244,8 +232,6 @@ body {
 }
 
 .gal-case {
-  font-family: inherit;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 
